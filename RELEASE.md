@@ -7,7 +7,7 @@
 1. **Clone or download the project**
 
    ```bash
-   git clone <your-repo-url>
+   git clone https://github.com/morshedulmunna/passgen
    cd password-generate-cli
    ```
 
