@@ -1,0 +1,20 @@
+# GitHub Actions metadata for linter resolution
+actions:
+  - name: actions/checkout
+    version: v4
+    description: Checkout repository
+  - name: dtolnay/rust-toolchain
+    version: stable
+    description: Install Rust toolchain
+  - name: actions/cache
+    version: v4
+    description: Cache dependencies
+  - name: actions/upload-artifact
+    version: v4
+    description: Upload build artifacts
+  - name: actions/download-artifact
+    version: v4
+    description: Download build artifacts
+  - name: softprops/action-gh-release
+    version: v2
+    description: Create GitHub release 

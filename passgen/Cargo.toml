@@ -1,0 +1,28 @@
+[package]
+name = "passgen-cli"
+version = "0.1.0"
+edition = "2021"
+authors = ["Morshedul Munna <morshedulmunna1@gmail.com>"]
+description = "A secure password generator CLI tool for macOS with clipboard integration"
+license = "MIT"
+repository = "https://github.com/morshedulmunna/passgen"
+homepage = "https://github.com/morshedulmunna/passgen"
+documentation = "https://github.com/morshedulmunna/passgen#readme"
+keywords = ["password", "generator", "cli", "security", "macos", "clipboard"]
+categories = ["command-line-utilities", "security"]
+readme = "README.md"
+
+[[bin]]
+name = "passgen"
+path = "src/main.rs"
+
+[dependencies]
+clap = { version = "4.4", features = ["derive"] }
+rand = "0.8"
+rand_core = "0.6"
+base64 = "0.21"
+sha2 = "0.10"
+hex = "0.4"
+colored = "2.0"
+anyhow = "1.0"
+thiserror = "1.0"
