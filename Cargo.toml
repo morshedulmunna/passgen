@@ -16,6 +16,10 @@ readme = "README.md"
 name = "passgen"
 path = "src/main.rs"
 
+[[bin]]
+name = "passgen-web"
+path = "src/web_main.rs"
+
 [dependencies]
 clap = { version = "4.4", features = ["derive"] }
 rand = "0.8"
@@ -26,3 +30,10 @@ hex = "0.4"
 colored = "2.0"
 anyhow = "1.0"
 thiserror = "1.0"
+actix-web = "4.4"
+actix-files = "0.6"
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+tokio = { version = "1.0", features = ["full"] }
+env_logger = "0.10"
+log = "0.4"

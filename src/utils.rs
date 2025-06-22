@@ -78,6 +78,7 @@ impl PasswordStrength {
         }
     }
 
+    #[allow(dead_code)]
     pub fn color(&self) -> &'static str {
         match self {
             PasswordStrength::VeryWeak => "red",
@@ -98,6 +99,7 @@ pub fn format_password(password: &str, format: &str) -> Result<String> {
     }
 }
 
+#[allow(dead_code)]
 pub fn copy_to_clipboard(text: &str) -> Result<()> {
     let mut child = Command::new("pbcopy")
         .arg("-Prefer")
