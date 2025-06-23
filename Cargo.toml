@@ -8,7 +8,7 @@ license = "MIT"
 repository = "https://github.com/morshedulmunna/passgen"
 homepage = "https://github.com/morshedulmunna/passgen"
 documentation = "https://github.com/morshedulmunna/passgen#readme"
-keywords = ["password", "generator", "cli", "security", "macos", "clipboard"]
+keywords = ["password", "generator", "cli", "security", "clipboard"]
 categories = ["command-line-utilities", "security"]
 readme = "README.md"
 
