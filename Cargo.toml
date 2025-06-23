@@ -1,5 +1,5 @@
 [package]
-name = "passgen-cli"
+name = "passgenz"
 version = "0.1.0"
 edition = "2021"
 authors = ["Morshedul Munna <morshedulmunna1@gmail.com>"]
